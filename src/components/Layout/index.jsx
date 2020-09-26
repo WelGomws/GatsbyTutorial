@@ -4,14 +4,17 @@ import "./layout.scss"
 import Menu from "../Menu"
 import GlobalStyles from "../../styles/globalStyled"
 import Footer from "../Footer"
+import Container from "../Container"
 
 const Layout = ({ children }) => {
   return (
     <>
-      <GlobalStyles />
-      <Menu />
-      <main>{children}</main>
-      <Footer />
+      <Container>
+        <GlobalStyles />
+        <Menu />
+        <main>{children}</main>
+        <Footer />
+      </Container>
     </>
   )
 }
