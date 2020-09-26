@@ -1,12 +1,14 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquet mollis neque, eget mollis magna tincidunt volutpat. Nulla ut nunc vel magna commodo consequat. Integer.`,
-    author: `@gatsbyjs`,
-    copyright: `© Copyright - All Rights Reserved`,
+    title: `Surpresinha`,
+    description: `Site criado a partir de um projeto de estudo, créditos no repositório do GitHub.`,
+    author: `@WelGomws`,
+    copyright: `© Copyright - Todos os direitos reservados`,
     siteUrl: `https://www.example.com`,
     socialMedia: {
       github: "https://github.com/WelGomws",
+      instaMeu: "https://www.instagram.com/weelgomws",
+      instaDela: "https://www.instagram.com/marocha_cp",
     },
   },
   plugins: [
