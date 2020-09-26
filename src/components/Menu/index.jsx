@@ -1,65 +1,44 @@
 import React from "react"
 import { Link } from "gatsby"
-import { useStaticQuery, graphql } from "gatsby"
-import Img from "gatsby-image"
 
 const Menu = () => {
-  const { logo } = useStaticQuery(graphql`
-    query {
-      logo: file(relativePath: { eq: "gatsby-icon.png" }) {
-        childImageSharp {
-          fixed(width: 35, height: 35) {
-            ...GatsbyImageSharpFixed
-          }
-        }
-      }
-    }
-  `)
-
   return (
-    <nav className="navbar navbar-expand-sm navbar-dark bg-dark">
-      <Link className="navbar-brand" to="/">
-        <Img fixed={logo.childImageSharp.fixed} alt="Logo" />
-      </Link>
-      <ul className="navbar-nav mr-auto">
+    <nav
+      className="navbar navbar-expand-sm d-flex justify-content-center align-items-center"
+      style={{ borderRadius: "0px 0px 16px 16px", background: "#A9D0F5" }}
+    >
+      <ul className="navbar-nav">
         <li className="nav-item">
           <Link
             to="/"
             className="nav-link"
-            activeStyle={{ color: "red" }}
+            activeStyle={{ color: "white" }}
             activeClassName="active"
+            style={{ color: "black", fontSize: "18px" }}
           >
-            Home
+            Roi
           </Link>
         </li>
         <li className="nav-item">
           <Link
-            to="/about"
+            to="/motivos"
             className="nav-link"
-            activeStyle={{ color: "red" }}
+            activeStyle={{ color: "white" }}
             activeClassName="active"
+            style={{ color: "black", fontSize: "18px" }}
           >
-            About
+            Motivos
           </Link>
         </li>
         <li className="nav-item">
           <Link
-            to="/gallery"
+            to="/contato"
             className="nav-link"
-            activeStyle={{ color: "red" }}
+            activeStyle={{ color: "white" }}
             activeClassName="active"
+            style={{ color: "black", fontSize: "18px" }}
           >
-            Gallery
-          </Link>
-        </li>
-        <li className="nav-item">
-          <Link
-            to="/contact"
-            className="nav-link"
-            activeStyle={{ color: "red" }}
-            activeClassName="active"
-          >
-            Contact
+            Contato
           </Link>
         </li>
       </ul>
