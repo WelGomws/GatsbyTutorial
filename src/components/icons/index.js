@@ -1,12 +1,12 @@
-import { Email, LocationOn } from "styled-icons/material"
+import { Email } from "styled-icons/material"
 import { Phone } from "styled-icons/boxicons-solid"
-import { Github } from "@styled-icons/boxicons-logos/Github"
+import { Github, Instagram } from "@styled-icons/boxicons-logos"
 
 const Icons = {
   Email,
   Phone,
-  LocationOn,
   Github,
+  Instagram,
 }
 
 export default Icons
