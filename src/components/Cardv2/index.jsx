@@ -13,9 +13,6 @@ const Cardv2 = props => {
       <div className="card-body">
         <h5 className="card-title">{props.titleCard}</h5>
         <p className="card-text">{props.textCard}</p>
-        <a href="#" className={`btn btn-${props.colorButton}`}>
-          Visitar
-        </a>
       </div>
     </Styled.CardV2Wrapper>
   )

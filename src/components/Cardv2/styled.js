@@ -1,23 +1,13 @@
-import styled, { css } from "styled-components"
+import styled from "styled-components"
 
 export const CardV2Wrapper = styled.div`
-  background: ${props => (props.background ? props.background : "#e3a617")};
+  background: #F5A9BC;
   h5 {
-    color: #f1defa;
+    color: black;
   }
   p {
-    color: #f1defa;
+    color: black;
   }
-
-  ${props =>
-    props.primary &&
-    css`
-      background: #8a4baf;
-      h5 {
-        color: #f1defa;
-      }
-      p {
-        color: #f1defa;
-      }
-    `}
+  margin-bottom: 24px;
+  
 `
