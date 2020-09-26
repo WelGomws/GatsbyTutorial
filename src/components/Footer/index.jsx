@@ -6,7 +6,7 @@ const Footer = () => {
   const {
     site: {
       siteMetadata: {
-        socialMedia: { github },
+        socialMedia: { github, instaMeu, instaDela },
         copyright,
         description,
       },
@@ -17,6 +17,8 @@ const Footer = () => {
         siteMetadata {
           socialMedia {
             github
+            instaMeu
+            instaDela
           }
           copyright
           description
@@ -25,16 +27,25 @@ const Footer = () => {
     }
   `)
   return (
-    <div className="bg-dark">
+    <div style={{ background: "#A9D0F5", borderRadius: "16px 16px 0px 0px" }}>
       <div className="container">
-        <div className="row text-white py-4 mt-5">
-          <div className="col-6">{description}</div>
-          <div className="col-6 d-flex justify-content-center align-items-center">
+        <div className="row text-black py-4 mt-5">
+          <div className="col-8">{description}</div>
+          <div className="col-4 d-flex justify-content-center align-items-center">
+            <a href={instaMeu} target="_blank" rel="noreferrer">
+              <Styled.InstaIcon />
+            </a>
             <a href={github} target="_blank" rel="noreferrer">
               <Styled.GitHubIcon />
             </a>
+            <a href={instaDela} target="_blank" rel="noreferrer">
+              <Styled.InstaIcon />
+            </a>
           </div>
-          <div className="col-12 d-flex justify-content-center">
+          <div
+            className="col-12 d-flex justify-content-center"
+            style={{ marginTop: "30px" }}
+          >
             {copyright}
           </div>
         </div>

@@ -4,9 +4,18 @@ import Icons from "../icons"
 export const GitHubIcon = styled(Icons.Github)`
   margin-right: 10px;
   width: 35px;
-  color: white;
+  color: black;
 
   &:hover {
-    color: gray;
+    color: white;
+  }
+`
+export const InstaIcon = styled(Icons.Instagram)`
+  margin-right: 10px;
+  width: 35px;
+  color: black;
+
+  &:hover {
+    color: white;
   }
 `
