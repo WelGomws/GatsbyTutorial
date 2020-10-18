@@ -5,10 +5,10 @@ import SEO from "../components/seo.jsx"
 const IndexPage = () => (
   <Layout>
     <SEO title="Roi" description="Welcome!!" />
-    <div className="container" style={{ display: "flex", fontSize: "16px" }}>
+    <div className="container" style={{ display: "flex", fontSize: "16px"}}> 
       <div className="row">
         <div className="col-12 py-5">
-          <h1>Oi mi amor!</h1>
+          <h1>Oi mi vida!</h1>
           <p>
             Comecei a estudar esse criador de site quando precisei criar o site
             da empresa que trabalho, acompanhando os videos tutoriais do
