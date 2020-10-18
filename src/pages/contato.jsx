@@ -16,7 +16,7 @@ const Contato = () => {
             <ul class="list-group">
               <li class="list-group-item" style={{ fontSize: "20px" }}>
                 <Styled.EmailWrapper />
-                wellingtondomingos.gomes@hotmail.com
+                wellingtondomingos.gomes@gmail.com
               </li>
               <li class="list-group-item" style={{ fontSize: "20px" }}>
                 <Styled.PhoneWrapper />
