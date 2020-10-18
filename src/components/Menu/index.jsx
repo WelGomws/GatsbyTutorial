@@ -12,20 +12,20 @@ const Menu = () => {
             className="nav-link"
             activeStyle={{ color: "white" }}
             activeClassName="active"
-            style={{ color: "black", fontSize: "18px" }}
+            style={{ color: "black", fontSize: "20px" }}
           >
             Roi
           </Link>
         </li>
         <li className="nav-item">
           <Link
-            to="/motivos"
+            to="/memorias"
             className="nav-link"
             activeStyle={{ color: "white" }}
             activeClassName="active"
-            style={{ color: "black", fontSize: "18px" }}
+            style={{ color: "black", fontSize: "20px" }}
           >
-            Motivos
+            Memorias
           </Link>
         </li>
         <li className="nav-item">
@@ -34,7 +34,7 @@ const Menu = () => {
             className="nav-link"
             activeStyle={{ color: "white" }}
             activeClassName="active"
-            style={{ color: "black", fontSize: "18px" }}
+            style={{ color: "black", fontSize: "20px" }}
           >
             Contato
           </Link>
