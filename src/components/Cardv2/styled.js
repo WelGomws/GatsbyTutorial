@@ -8,5 +8,8 @@ export const CardWrapper = styled.div`
   p {
     color: black;
   }
-
+  .card-body {
+    height: 180px;
+  }
+  border: 2px solid #F5A9BC;
 `
