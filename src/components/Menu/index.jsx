@@ -1,12 +1,10 @@
 import React from "react"
 import { Link } from "gatsby"
+import * as Styled from './styled'
 
 const Menu = () => {
   return (
-    <nav
-      className="navbar navbar-expand-sm d-flex justify-content-center align-items-center"
-      style={{ borderRadius: "0px 0px 16px 16px", background: "#A9D0F5" }}
-    >
+    <Styled.NavMenu className="navbar navbar-expand-sm d-flex justify-content-center align-items-center">
       <ul className="navbar-nav">
         <li className="nav-item">
           <Link
@@ -42,7 +40,7 @@ const Menu = () => {
           </Link>
         </li>
       </ul>
-    </nav>
+    </Styled.NavMenu>
   )
 }
 
