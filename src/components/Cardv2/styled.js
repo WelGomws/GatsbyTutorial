@@ -1,6 +1,6 @@
 import styled from "styled-components"
 
-export const CardV2Wrapper = styled.div`
+export const CardWrapper = styled.div`
   background: #F5A9BC;
   h5 {
     color: black;
@@ -8,6 +8,5 @@ export const CardV2Wrapper = styled.div`
   p {
     color: black;
   }
-  margin-bottom: 24px;
-  
+
 `
